@@ -1,0 +1,91 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Client.Core.BusinessLogic", "scr\Client\CampusAIS.Client.Core.BusinessLogic\CampusAIS.Client.Core.BusinessLogic.csproj", "{24BE92D0-25D5-954D-5A56-0EF8DF9D832C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Client.Data.ApiClient", "scr\Client\CampusAIS.Client.Data.ApiClient\CampusAIS.Client.Data.ApiClient.csproj", "{9C1EA6D5-BAAD-6F6B-F9C9-C7EF59C8A3A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Client.Security.Auth", "scr\Client\CampusAIS.Client.Security.Auth\CampusAIS.Client.Security.Auth.csproj", "{CCDF701F-F7DF-45C7-4FC5-0DA8E24068D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Client.UI.Desktop", "scr\Client\CampusAIS.Client.UI.Desktop\CampusAIS.Client.UI.Desktop.csproj", "{EE2B173A-20A9-8422-FB25-0E692A37F256}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Gateway.Api", "scr\Gateway\CampusAIS.Gateway.Api\CampusAIS.Gateway.Api.csproj", "{69A34A93-C070-B861-29B2-6709251EC07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Gateway.Booking", "scr\Gateway\CampusAIS.Gateway.Booking\CampusAIS.Gateway.Booking.csproj", "{E5D051C8-8752-138F-E04E-B576C72D258B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Gateway.Integration", "scr\Gateway\CampusAIS.Gateway.Integration\CampusAIS.Gateway.Integration.csproj", "{41AA7F1D-E863-7E63-447B-74118D9655AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Gateway.Security", "scr\Gateway\CampusAIS.Gateway.Security\CampusAIS.Gateway.Security.csproj", "{207FFDDD-02F4-AA52-2DF7-661DACFD050A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Gateway.Sync", "scr\Gateway\CampusAIS.Gateway.Sync\CampusAIS.Gateway.Sync.csproj", "{257B9B49-DD29-E803-31CC-73CA9453332B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Shared.Contracts", "scr\Shared\CampusAIS.Shared.Contracts\CampusAIS.Shared.Contracts.csproj", "{BE1A03D0-BD28-5E5A-6398-0D0743CCDADE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Client.Tests", "tests\CampusAIS.Client.Tests\CampusAIS.Client.Tests.csproj", "{A6D8D9FC-B80B-98ED-FB31-DA6E1467FAAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CampusAIS.Gateway.Tests", "tests\CampusAIS.Gateway.Tests\CampusAIS.Gateway.Tests.csproj", "{3B08FDA6-7B47-DB5F-E502-A4B4CBB3551B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24BE92D0-25D5-954D-5A56-0EF8DF9D832C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24BE92D0-25D5-954D-5A56-0EF8DF9D832C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24BE92D0-25D5-954D-5A56-0EF8DF9D832C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24BE92D0-25D5-954D-5A56-0EF8DF9D832C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1EA6D5-BAAD-6F6B-F9C9-C7EF59C8A3A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1EA6D5-BAAD-6F6B-F9C9-C7EF59C8A3A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1EA6D5-BAAD-6F6B-F9C9-C7EF59C8A3A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1EA6D5-BAAD-6F6B-F9C9-C7EF59C8A3A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CCDF701F-F7DF-45C7-4FC5-0DA8E24068D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCDF701F-F7DF-45C7-4FC5-0DA8E24068D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCDF701F-F7DF-45C7-4FC5-0DA8E24068D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCDF701F-F7DF-45C7-4FC5-0DA8E24068D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE2B173A-20A9-8422-FB25-0E692A37F256}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2B173A-20A9-8422-FB25-0E692A37F256}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2B173A-20A9-8422-FB25-0E692A37F256}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2B173A-20A9-8422-FB25-0E692A37F256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69A34A93-C070-B861-29B2-6709251EC07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A34A93-C070-B861-29B2-6709251EC07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A34A93-C070-B861-29B2-6709251EC07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A34A93-C070-B861-29B2-6709251EC07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5D051C8-8752-138F-E04E-B576C72D258B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5D051C8-8752-138F-E04E-B576C72D258B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5D051C8-8752-138F-E04E-B576C72D258B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5D051C8-8752-138F-E04E-B576C72D258B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41AA7F1D-E863-7E63-447B-74118D9655AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41AA7F1D-E863-7E63-447B-74118D9655AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41AA7F1D-E863-7E63-447B-74118D9655AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41AA7F1D-E863-7E63-447B-74118D9655AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207FFDDD-02F4-AA52-2DF7-661DACFD050A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207FFDDD-02F4-AA52-2DF7-661DACFD050A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207FFDDD-02F4-AA52-2DF7-661DACFD050A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207FFDDD-02F4-AA52-2DF7-661DACFD050A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{257B9B49-DD29-E803-31CC-73CA9453332B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{257B9B49-DD29-E803-31CC-73CA9453332B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{257B9B49-DD29-E803-31CC-73CA9453332B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{257B9B49-DD29-E803-31CC-73CA9453332B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1A03D0-BD28-5E5A-6398-0D0743CCDADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1A03D0-BD28-5E5A-6398-0D0743CCDADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1A03D0-BD28-5E5A-6398-0D0743CCDADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1A03D0-BD28-5E5A-6398-0D0743CCDADE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6D8D9FC-B80B-98ED-FB31-DA6E1467FAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6D8D9FC-B80B-98ED-FB31-DA6E1467FAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6D8D9FC-B80B-98ED-FB31-DA6E1467FAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6D8D9FC-B80B-98ED-FB31-DA6E1467FAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B08FDA6-7B47-DB5F-E502-A4B4CBB3551B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B08FDA6-7B47-DB5F-E502-A4B4CBB3551B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B08FDA6-7B47-DB5F-E502-A4B4CBB3551B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B08FDA6-7B47-DB5F-E502-A4B4CBB3551B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21A8B862-EC69-44EF-963C-7E2113943A5B}
+	EndGlobalSection
+EndGlobal

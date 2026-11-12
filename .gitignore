@@ -1,0 +1,28 @@
+# Артефакты компиляции .NET
+[Bb]in/
+[Oo]bj/
+[Oo]ut/
+[Ll]og/
+[Ll]ogs/
+
+# Файлы Visual Studio и временные файлы
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Базы данных и локальные хранилища (для АИС Умный кампус)
+*.mdf
+*.ldf
+*.ndf
+*.sqlite
+*.db
+
+# Временные файлы Word и прочей документации
+~$*.docx
+~$*.xlsx
+
+# Файлы операционных систем
+.DS_Store
+Thumbs.db

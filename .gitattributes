@@ -1,0 +1,19 @@
+# Автоматическая нормализация переводов строк
+* text=auto
+# Явное указание текстовых форматов (нормализуются в LF)
+*.cs text diff=csharp
+*.csproj text
+*.sln text eol=crlf
+*.md text
+*.json text
+*.xml text
+*.yml text
+*.puml text
+# Бинарные файлы (Git не должен пытаться их сливать или менять)
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.docx filter=lfs diff=lfs merge=lfs -text
